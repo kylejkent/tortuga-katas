@@ -1,8 +1,10 @@
 const express = require('express')
 const router = express.Router()
 
+const method = require('./method')
+
 router.get('/', (req, res) => {
-  res.send('hello')
+  res.send(method)
 })
 
 module.exports = router
