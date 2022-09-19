@@ -45,7 +45,7 @@ mongoose.connect(
 // app.use('/', require('./controllers/results'))
 // ****** KATAS ROUTES START ******
 // * START http://portal.tortugacoders.com/solutions/631ef6b04e8c130016af0c48*
-app.use('/', require('/items.js'))
+app.use('/', require('./controllers/items'))
 // * END http://portal.tortugacoders.com/solutions/631ef6b04e8c130016af0c48*
 
 // ****** KATAS ROUTS END ******
