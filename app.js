@@ -42,11 +42,14 @@ mongoose.connect(
 
 // Routes
 // Create route for search
-app.use('/', require('./controllers/search'))
-app.use('/results', require('./controllers/results'))
-// *** TEST CREATE SUBMIT START ***
+// app.use('/', require('./controllers/search'))
+app.use('/', require('./controllers/results'))
+// ****** KATAS ROUTES START ******
+// * START http://portal.tortugacoders.com/solutions/631ef6b04e8c130016af0c48*
 
-// *** TEST CREATE SUBMIT END ***
+// * END http://portal.tortugacoders.com/solutions/631ef6b04e8c130016af0c48*
+
+// ****** KATAS ROUTS END ******
 
 // Catch 404 and forward to error handler
 app.use((req, res, next) => {
